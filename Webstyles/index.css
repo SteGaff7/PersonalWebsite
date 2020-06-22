@@ -1,0 +1,167 @@
+html {
+    font-family: 'Bai Jamjuree', sans-serif; color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width:auto;
+    margin: 0;
+    background:white;
+}
+
+.header {
+    width: 100%;
+}
+
+img.cover {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    background-color: green;
+    margin: -5px 0px 0px 0px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    clear: both;
+    z-index: 1000;
+    padding: 2.3vw 0vw 2.3vw 0vw;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vw;
+    padding: 2.3vw 5vw;
+}
+
+a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: darkgreen;
+}
+
+h1 {
+    font-size: 4.2vw;
+}
+.content_area {
+    clear: both;
+    margin: 0% 5% 0% 5%;
+    width: auto;
+    background-color: white;
+    overflow: auto;
+    font-size: 2vw;
+}
+
+.banner {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.left_col {
+    float: left;
+    width: 42.5%;
+    margin-left: 5%;
+    padding-bottom: 30px;
+    clear: left;
+    text-align: center;
+}
+
+.left_col > img {    
+    clear: both;
+}
+
+
+.right_col {
+    float: right;
+    width: 42.5%;
+    margin-right: 5%;
+    padding-bottom: 30px;
+    clear: right;
+    text-align: center;
+}
+
+.right_col > img {    
+    clear: both;
+}
+
+.central_col {
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both;
+    text-align: center;
+}
+
+.footer {
+    clear: both;
+    background-color: green;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 12vw;
+    color: white;
+    font-size: 1.2vw;
+}
+
+
+.left_foot { 
+    float: left;
+    margin-left: 17.5%;
+    width: 27.5%;
+}
+
+.right_foot {
+    float: right;
+    margin-right: 17.5%;
+    width: 27.5%;  
+}
+
+
+/*Social Media Buttons taking from W3schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
+
+.fa {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background-color: lightgray;
+    color: purple;
+    padding: 3px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: black;
+    background-color: green;
+}
